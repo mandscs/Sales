@@ -1,0 +1,19 @@
+{
+  "name": "sales",
+  "version": "1.0.0",
+  "description": "Sales codesdrops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandscs/Sales.git"
+  },
+  "author": "Camila Souza e Amanda da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandscs/Sales/issues"
+  },
+  "homepage": "https://github.com/mandscs/Sales#readme"
+}
