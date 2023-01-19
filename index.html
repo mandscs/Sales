@@ -6,34 +6,85 @@
    <link href="./src/css/style.css"rel="stylesheet">
    <link href="./src/css/media.css"rel="stylesheet">
    <link href="./src/css/fonts.css"rel="stylesheet">
+   <link href="./src/css/footer.css"rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>CS - Clinicorp</title>
 </head>
-<body>
-        <header>
-           <div id="title">
-              <h1>Clinicorp</h1>
-              <h1>Sales</h1>
+     <body style="background-color: transparent;">
+      <div id="Menu"></div>
+      <header id="container-header" style="background-color: rgb(37,37,37);">
+        <div id="head__left-container" class="flex itens-center">
+        <button type="button" class="menu__main-btn">
+          <div class="md-ink-container"></div>
+          <span class="bt-icon material-icons-outlined menu__main-btn--icon" style="font-size: 20px;">menu</span>
+        </button>
+       </div>
+       </div>
+       <div id="search-bar">
+        <div id="search-bar__container">
+          <input type="text" class="search-bar__input" placeholder="Search" value="" style="background-color: rgb(229, 229, 229); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border: none;">
+          <span class="bt-icon material-icons-outlined " style="font-size: 20px; position: absolute; right: 8px; top: 7px; cursor: pointer; color: rgb(116, 116, 116);">search</span>
           </div>
-            <ul>
-              <li><a href="#">Ínicio</a></li> 
-              <li><a href="#">Serviços</a></li> 
-            </ul>
-        </header>
+        </div>
+        <div id="header__right-container">
+        <div id="flex itens-center">
+        <div id="header__container-support">
+          <button type="button" class="md-btn md-btn--icon md-pointer--hover md-btn--tooltip md-inline-block" style="color: rgb(249, 249, 249); cursor: pointer; display: flex; align-items: center; justify-content: center; height: 40px; width: 40px;">
+          <div class="md-ink-container"></div>
+          <div class="md-tooltip-container">
+            <span aria-hidden="true"></span> 
+        </div>
+          <i class="md-icon material-icons md-text--inherit" style="height: 24px; width: 24px; font-size: 24px;">bug_report</i>
+          </button>
+        </div>
+        </div>
+        <div class="header__user-infos--items"><span style="color: rgb(229, 229, 229);">Amanda Santos</span></div>
+        </div>
+        </div>
+        <img src="https://lh3.googleusercontent.com/a/ALm5wu27gS6Hz7Z_DqNbqLMJ-IJTfcjdX5jck9hBUCg7Jw=s96-c" alt="picture" referrerpolicy="no-referrer" style="border-radius: 30px; width: 32px; height: 32px; display: flex; margin-right: 10px; margin-left: 10px; justify-content: center; align-items: center;">
+        <div id="header__container-logout">
+         <button type="button" class="md-btn md-btn--icon md-pointer--hover md-btn--tooltip md-inline-block" style="color: rgb(229, 229, 229); cursor: pointer; display: flex; align-items: center; justify-content: center; height: 40px; width: 40px;">
+          <div class="md-ink-container"></div>"
+          <div class="md-tooltip-container">
+            <span aria-hidden="true"></span>
+           </div>
+           <i class="md-icon material-icons md-text--inherit" style="height: 24px; width: 24px; font-size: 24px;">logout</i></button> 
+         <h1>Clinicorp - Sales</h1>
+          </div>
+        </div>
+      </div>
+      </header>
+      </div>
           <main>
               <aside>
                     <h2><span>Users Test</span></h2>
-                    <h2>Preencha os dados:</h2>
-                    <p>Controle de usuários teste que foram liberados na plataforma.. </p>
+                    <h2>Sales</h2>
                 <form action="#" class="form">   
-                  <input type="text" placeholder="CPF/CNPJ" required>
-                  <input type="text" placeholder="Email" required>
-                  <input type="text" placeholder="Agente" required>
+                  <input type="text" placeholder="Nome da Cliníca" required>
+                  <input type="text" placeholder="Email Usuário" required>
+                  <input type="text" placeholder="CPF/CNPJ Cliníca" required>
+                  <input type="text" placeholder="Account Executive" required>
+                  <div> 
                   <button class="submit" onclick="colocaFuncaoAqui()">Enviar</button>
-              </aside>
+                </div>
+                </aside>
               <article>         
-                  <img src="./src/img/undraw_team_up_re_84ok.png" alt="equipe">
+                  <img src="./src/img/team.png" alt="equipe">
               </article>
           </main>
-     </body>
+    </body>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
 </html>
