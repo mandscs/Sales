@@ -6,10 +6,41 @@
    <link href="./src/css/style.css"rel="stylesheet">
    <link href="./src/css/media.css"rel="stylesheet">
    <link href="./src/css/fonts.css"rel="stylesheet">
+   <script type="text/javascript" src="./Controller/ValidateField.js"></script>
    <link href="./src/css/footer.css"rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS - Clinicorp</title>
 </head>
+  <body>
+    <header>
+    <div id="title">
+      <h1>Clinicorp</h1>
+      <h1>Sales</h1>
+    </div>
+      <ul>
+        <li><a href="#">Ínicio</a></li> 
+        <li><a href="#">Serviços</a></li> 
+      </ul>
+    </header>
+    <main>
+      <aside>
+            <h2><span>Users Test</span></h2>
+            <h2>Preencha os dados:</h2>
+            <p>Controle de usuários teste que foram liberados na plataforma.. </p>
+      <form action="#" class="form"> 
+        <div class="input-field">
+          <input type="text" id="cpfCnpj" placeholder="000.000.000-00" onblur="validateCPFandCNPJ()" required>
+          <input type="email" id="email" placeholder="exemplo@gmail.com" onblur="validateEmail(email)" maxlength="50" required>
+          <input type="text" id="agente" placeholder="Agente" required>
+          <button class="submit" onclick="onSubmit()">Enviar</button>
+        </div>
+        </form>
+      </aside>
+      <article>         
+        <img src="./src/img/undraw_team_up_re_84ok.png" alt="equipe">
+      </article>
+      </main>
+    </body>
      <body style="background-color: transparent;">
       <div id="Menu"></div>
       <header id="container-header" style="background-color: rgb(37,37,37);">
