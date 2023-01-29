@@ -3,6 +3,7 @@ footer{
     background-color: azure;
     max-width: 1140px;
 }
+
 .py-3 {
     padding-top: 1rem!important;
     padding-bottom: 1rem!important;
@@ -12,18 +13,23 @@ footer{
     margin-top: 1.5rem!important;
     margin-bottom: 1.5rem!important;
 }
+
 .align-items-center {
     align-items: center!important;
 }
+
 .justify-content-between {
     justify-content: space-between!important;
 }
+
 .flex-wrap {
     flex-wrap: wrap!important;
 }
+
 .border-top {
     border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
 }
+
 .d-flex {
     display: flex!important;
 }
