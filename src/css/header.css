@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-pills > li > a.active {
+    background-color: #ff6f00 !important;
+}
+
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+.flex-wrap {
+    flex-wrap: wrap!important;
+}
+
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
